@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import datetime
 import json
 import os
@@ -17,9 +15,10 @@ img_path = 'img'
 shp_path = 'shp'
 # root path for saving the mask.
 ROOT_DIR = ROOT + '/dataset'
-IMAGE_DIR = os.path.join(ROOT_DIR, "orto")
-ANNOTATION_DIR = os.path.join(ROOT_DIR, "msk")
+# IMAGE_DIR = os.path.join(ROOT_DIR, "orto")
+# ANNOTATION_DIR = os.path.join(ROOT_DIR, "msk")
 
+# CLIP SIZE -
 clip_size = 320
 
 INFO = {
